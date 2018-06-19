@@ -1,4 +1,4 @@
-FROM kishor05/orobase-master
+FROM kishor05/orobase-master:latest
 
 COPY bin/run.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/run.sh
