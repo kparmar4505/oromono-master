@@ -1,5 +1,5 @@
 data:
-  image: kishor05/orodata
+  image: kishor05/orodata-master
 db:
   image: mysql:5.5
   expose:
@@ -19,7 +19,7 @@ mail:
     - maildomain=localhost
     - smtp_user=user@localhost:password
 minion:
-  image: kishor05/oromono
+  image: kishor05/oromono-master
   links:
     - "db"
     - "mail"
